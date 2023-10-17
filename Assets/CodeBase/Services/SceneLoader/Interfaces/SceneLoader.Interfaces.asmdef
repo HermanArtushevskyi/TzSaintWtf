@@ -1,0 +1,16 @@
+{
+    "name": "SceneLoader.Interfaces",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5b0737b11d48d68408c54acd35b9cf5c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
