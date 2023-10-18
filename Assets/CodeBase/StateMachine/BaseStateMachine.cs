@@ -6,9 +6,9 @@ namespace CodeBase.StateMachine
 {
     public abstract class BaseStateMachine : IStateMachine
     {
-        protected IExitableState CurrentState;
-        protected Dictionary<Type, IExitableState> States;
-        
+        protected IExitableState CurrentState = null;
+        protected Dictionary<Type, IExitableState> States = new();
+
         public void EnterState<TExitableState>() where TExitableState : IExitableState
         {
             CurrentState?.Exit();
@@ -22,5 +22,7 @@ namespace CodeBase.StateMachine
             CurrentState = States[typeof(TExitableState)];
             (CurrentState as IStateWithPayload).Enter(payload);
         }
+
+        public abstract void Instantiate();
     }
 }

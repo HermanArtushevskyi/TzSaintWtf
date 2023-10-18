@@ -1,24 +1,16 @@
-﻿using CodeBase.Services.SceneLoader.Interfaces;
+﻿using CodeBase.UI.View;
+using IFactories = CodeBase.Factories.Interfaces;
 using UnityEngine;
-using UnityEngine.UI;
 using Zenject;
 
 namespace CodeBase.Entrypoints
 {
     public class MenuEntrypoint : MonoBehaviour
     {
-        private ISceneLoader _sceneLoader;
-
         [Inject]
-        private void Construct(ISceneLoader sceneLoader, Button playBtn)
+        private void Construct(IFactories.IFactory<MainMenuView> uiFactory)
         {
-            _sceneLoader = sceneLoader;
-            playBtn.onClick.AddListener(OnPlay);
-        }
-
-        private void OnPlay()
-        {
-            _sceneLoader.LoadSceneAsync("Game");
+            uiFactory.Create();
         }
     }
 }

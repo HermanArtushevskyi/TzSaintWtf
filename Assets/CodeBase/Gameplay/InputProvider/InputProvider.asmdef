@@ -1,0 +1,19 @@
+{
+    "name": "InputProvider",
+    "rootNamespace": "",
+    "references": [
+        "GUID:bad9c8bbd3255374c8a9eb7426d8a40d",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:24c0af9b032c3cb4682783563da6e2b1",
+        "GUID:83ff10b41a629f343b31026c51d454fe"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

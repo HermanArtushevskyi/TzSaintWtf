@@ -16,11 +16,16 @@ namespace CodeBase.Services.SceneLoader
             _coroutineRunner = coroutineRunner;
         }
 
+        public void LoadScene(string name)
+        {
+            SceneManager.LoadScene(name);
+        }
+
         public AsyncOperation LoadSceneAsync(string sceneName, bool allowActivation = true, Action onLoaded = null)
         {
             AsyncOperation loadSceneOperation = SceneManager.LoadSceneAsync(sceneName);
             loadSceneOperation.allowSceneActivation = allowActivation;
-            _coroutineRunner.StartCoroutine(LoadCoroutine(sceneName, allowActivation, onLoaded));
+            _coroutineRunner.LoadCoroutine(LoadCoroutine(sceneName, allowActivation, onLoaded));
             return loadSceneOperation;
         }
         

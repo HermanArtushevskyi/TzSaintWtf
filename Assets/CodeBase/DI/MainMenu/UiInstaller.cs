@@ -1,13 +1,13 @@
+using CodeBase.Common;
 using UnityEngine;
-using UnityEngine.UI;
 using Zenject;
 
 public class UiInstaller : MonoInstaller
 {
-    [SerializeField] private Button _playBtn;
-    
+    [SerializeField] private GameObject _uiPrefab;
+
     public override void InstallBindings()
     {
-        Container.Bind<Button>().FromInstance(_playBtn).AsCached();
+        Container.Bind<GameObject>().WithId(MenuPrefabID.UI).FromInstance(_uiPrefab).AsCached();
     }
 }

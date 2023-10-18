@@ -1,0 +1,16 @@
+{
+    "name": "InputProvider.Interfaces",
+    "rootNamespace": "",
+    "references": [
+        "GUID:83ff10b41a629f343b31026c51d454fe"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

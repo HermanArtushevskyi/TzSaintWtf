@@ -2,7 +2,11 @@
     "name": "StateMachine.States",
     "rootNamespace": "",
     "references": [
-        "GUID:e5d45a2416128cf44931b6ccb3f2c35c"
+        "GUID:e5d45a2416128cf44931b6ccb3f2c35c",
+        "GUID:24c0af9b032c3cb4682783563da6e2b1",
+        "GUID:83ff10b41a629f343b31026c51d454fe",
+        "GUID:79c724921bb0be04399361aabb75276a",
+        "GUID:5b0737b11d48d68408c54acd35b9cf5c"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

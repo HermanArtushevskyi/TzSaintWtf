@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7735209278818021598}
   - component: {fileID: 2498608409255419457}
   - component: {fileID: -1384404852249693965}
+  - component: {fileID: -7085666367186983451}
   m_Layer: 0
   m_Name: ProjectContext
   m_TagString: Untagged
@@ -76,3 +77,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _curtainPrefab: {fileID: 8871688510524766368, guid: 88132eb80f3f8414dbee731911ee13c5,
     type: 3}
+  _monoContext: {fileID: -7085666367186983451}
+--- !u!114 &-7085666367186983451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8772602960872853528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77344c5c61f644b2a6524c5325a0e0fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

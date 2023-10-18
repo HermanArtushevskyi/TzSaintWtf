@@ -14,6 +14,6 @@ namespace CodeBase.Entrypoints
             _sceneLoader = sceneLoader;
         }
 
-        private void Start() => _sceneLoader.LoadSceneAsync("MainMenu");
+        private void Start() => _sceneLoader.LoadScene("MainMenu");
     }
 }
