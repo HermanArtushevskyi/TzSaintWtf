@@ -1,0 +1,16 @@
+{
+    "name": "Buildings.Interfaces",
+    "rootNamespace": "",
+    "references": [
+        "GUID:de2d327a3c609f0439736ae0504eb94c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

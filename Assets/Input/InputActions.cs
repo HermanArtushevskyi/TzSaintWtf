@@ -41,17 +41,6 @@ namespace MyInput
             ],
             ""bindings"": [
                 {
-                    ""name"": """",
-                    ""id"": ""8dcaff4d-0554-4abd-ba5a-c947d84b1043"",
-                    ""path"": ""<Touchscreen>/delta"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""WASD"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
                     ""name"": ""Keyboard"",
                     ""id"": ""47f61b51-3546-43de-898d-a54584c2c01b"",
                     ""path"": ""2DVector"",

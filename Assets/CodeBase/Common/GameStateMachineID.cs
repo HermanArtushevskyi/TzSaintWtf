@@ -2,6 +2,7 @@
 {
     public enum GameStateMachineID : byte
     {
-        Player
+        Player,
+        Game
     }
 }

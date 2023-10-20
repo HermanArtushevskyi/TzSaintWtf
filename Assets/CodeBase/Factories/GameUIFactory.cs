@@ -20,8 +20,8 @@ namespace CodeBase.Factories
 
         public GameView Create()
         {
-            _container.InstantiatePrefab(_uiPrefab);
-            GameView view = _container.Instantiate<GameView>();
+            GameObject ui = _container.InstantiatePrefab(_uiPrefab);
+            GameView view = new GameView(ui.transform.Find("WinPanel").gameObject);
             _container.Bind<GameView>().FromInstance(view).AsSingle().NonLazy();
             _container.Instantiate<GameViewPresenter>();
             

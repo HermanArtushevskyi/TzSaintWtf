@@ -1,8 +1,6 @@
-﻿using System.Numerics;
-using CodeBase.Gameplay.InputProvider.Common;
+﻿using CodeBase.Gameplay.InputProvider.Common;
 using CodeBase.Gameplay.InputProvider.Interfaces;
 using MyInput;
-using UnityEngine;
 using Vector2 = UnityEngine.Vector2;
 
 namespace CodeBase.Gameplay.InputProvider
@@ -23,7 +21,6 @@ namespace CodeBase.Gameplay.InputProvider
         {
             _actions.Enable();
             input.MovementDirection = _actions.Player.WASD.ReadValue<Vector2>();
-            Debug.Log(input.MovementDirection);
             return input;
         }
     }

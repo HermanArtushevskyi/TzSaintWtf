@@ -1,0 +1,24 @@
+{
+    "name": "Buildings",
+    "rootNamespace": "",
+    "references": [
+        "GUID:95c4eadda9df8c24d8b09cfcaa8d3b99",
+        "GUID:de2d327a3c609f0439736ae0504eb94c",
+        "GUID:23eed6c2401dca1419d1ebd180e58c5a",
+        "GUID:80ed2b6c5fd2c2d44bca6512aebfcb71",
+        "GUID:932c62b5cbd6ad3459604dc0b797822e",
+        "GUID:e5d45a2416128cf44931b6ccb3f2c35c",
+        "GUID:d6465d5b9d241a145925e21db000ab2b",
+        "GUID:e115c52c0f1a19549b0dcdb0fb20593f",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
